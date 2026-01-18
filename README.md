@@ -119,15 +119,6 @@ Your solutions will be evaluated on:
 ❌ Syntax errors or import errors
 ❌ Using external libraries (use standard library only)
 
-## Tips for Success
-
-✅ Read the problem descriptions carefully in each .py file
-✅ Study the provided examples
-✅ Test edge cases (empty inputs, single elements, etc.)
-✅ Test your solutions using the test code at the bottom of each .py file
-✅ Write clean, readable code with good variable names
-✅ Add comments for complex logic (optional but helpful)
-✅ Verify your solutions work correctly before submission
 
 ### Think About Complexity
 
@@ -144,34 +135,15 @@ When designing your solution, consider:
 
 ## Problem Details
 
-### Q1: Stable Character
+Detailed problem descriptions, examples, and test cases are provided in each Python file:
 
-Find the first character where all occurrences appear together without interruption.
-
-**Example:** In `"abccba"`, the letter `'c'` appears at positions 2,3 (together), while `'a'` appears at 0,5 (separated). So `'c'` is stable.
-
-See `q1.py` for full details and examples.
-
-### Q2: Compressed Stack Length
-
-Process numbers left to right. When a number matches the top of the stack, both cancel out.
-
-**Example:** `[1, 2, 2, 3]` → Stack: `[1]` → `[1,2]` → `[1]` (cancel) → `[1,3]` → Result: 2
-
-See `q2.py` for full details and examples.
-
-### Q3: Event Overload Detector
-
-Find users with 3+ events within any 10-second window.
-
-**Example:** User with events at times `[10, 12, 18]` is overloaded (3 events within 8 seconds).
-
-See `q3.py` for full details and examples.
+- **Q1** - See `q1.py`
+- **Q2** - See `q2.py`
+- **Q3** - See `q3.py`
 
 ## Testing Notes
 
 - Each `.py` file contains example test cases in the `if __name__ == "__main__"` block
-- **Hidden test cases** will be used during final evaluation
 - Make sure your code handles edge cases and unusual inputs
 - Your code should be efficient enough to handle larger inputs
 
@@ -201,4 +173,3 @@ Focus on writing correct, clean, and efficient code. Test thoroughly before subm
 
 ---
 
-**Questions?** Review the problem descriptions in the `.py` files or run each file individually to see what's expected.
