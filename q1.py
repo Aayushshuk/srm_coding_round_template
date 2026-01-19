@@ -52,6 +52,21 @@ def first_stable_character(s):
         None
     """
     # TODO: Implement your solution here
+    int n = s.length();
+    int l=0; # left pointer
+    chr ch;
+    int r=n-1;
+    while(l<r){
+        if(s[l]==s[r]){
+            ch = s[l];
+            for(int l=0; l<r;l++){
+                if(ch == s[l]){
+                    return ch;
+                }
+            }
+        l++;
+        r--;
+    }
     pass
 
 
