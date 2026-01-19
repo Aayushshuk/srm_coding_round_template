@@ -65,6 +65,20 @@ def compressed_stack_length(lst):
         0
     """
     # TODO: Implement your solution here
+   stack<int> st;
+    int n = lst.length();
+    int count =0;
+    for(for int i=0; i<n;i++){
+       st.push(lst[i]);
+       count++;
+       int top = st.top();
+       if(top == lst[i]){
+          st.pop();
+          count--;
+       }
+       i++;
+    }
+    return count;
     pass
 
 
