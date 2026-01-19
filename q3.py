@@ -67,6 +67,18 @@ def find_overloaded_users(events):
         set()
     """
     # TODO: Implement your solution here
+     vector<int> overloaded;
+
+    int n = event.size();
+    int m = event[0].size();
+    int original = events[0][i];
+    for(int i=0; i<n;i++){
+        if(events[i][0] == original){
+            event[i][1] - events[i][1] < 10 
+            overloaded.push_back(events[i][0]);
+        }
+    }
+    return overloaded;
     pass
 
 
